@@ -13,7 +13,7 @@ export default function Testemonials() {
         fontSize={{ base: 'xl', md: '2xl' }}
         textAlign={'center'}
         maxW={'3xl'}>
-        We had an incredible experience working with Chakra Templates and were
+        We had an incredible experience working with  and were
         impressed they made such a big difference in only three weeks. Our team
         is so grateful for the wonderful improvements they made and their
         ability to get familiar with the product concept so quickly.
