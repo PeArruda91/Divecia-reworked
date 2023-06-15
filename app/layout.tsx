@@ -1,7 +1,7 @@
 "use client"
 import { ChakraProvider } from "@chakra-ui/react"
 import Navbar from "@/components/Navbar"
-import Footer from "@/components/Footer"
+import Footer from "@/components/Footer.tsx"
 
 import DesktopNav from '@/components/DesktopNav';
 import MobileNav from '@/components/MobileNav';
