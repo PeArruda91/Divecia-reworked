@@ -3,6 +3,9 @@ import { ChakraProvider } from "@chakra-ui/react"
 import Navbar from "@/components/Navbar"
 import Footer from "@/components/Footer"
 
+import DesktopNav from '@/components/DesktopNav';
+import MobileNav from '@/components/MobileNav';
+
 
 export default function RootLayout({
   children,
