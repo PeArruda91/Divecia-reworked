@@ -23,6 +23,7 @@ export default function aboutSection() {
               _after={{
                 content: "''",
                 width: "full",
+                // eslint-disable-next-line react-hooks/rules-of-hooks
                 height: useBreakpointValue({ base: "20%", md: "30%" }),
                 position: "absolute",
                 bottom: 1,
