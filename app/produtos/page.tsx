@@ -14,7 +14,7 @@ interface CardData {
 const cards: CardData[] = [
   {
     title: 'Venha conhecer nossos produtos. ',
-    description: 'Trabalhamos com produtos da mais alta qualidade. ',
+    description: 'Com mais de 15 anos de experiência, somos especializados no desenvolvimento de projetos de divisórias utilizando uma ampla variedade de materiais. Nossas opções incluem eucaplac, gesso drywall, materiais acústicos e incombustíveis, vidro duplo com persiana embutida, PVC, biombos, estações de trabalho, forros em PVC, gesso e isopor, pisos vinílicos, gesso 3D, janelas acústicas e muito mais. Trabalhamos com uma ampla gama de materiais de alta qualidade para garantir soluções personalizadas e duradouras para os projetos de nossos clientes.',
     price: '',
   },
   {
