@@ -18,7 +18,7 @@ export default function Testemonials() {
       <Box textAlign={'center'}>
         <Avatar
           src={
-            'https://images.unsplash.com/photo-1586297135537-94bc9ba060aa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80'
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPDAHKnh6lKTJ5B9Hwyl78qIe7nb52UQ9Qu7_rzELlk57iuA23GKBf-Sp4b2SzRX_Kf8k'
           }
           mb={2}
         />

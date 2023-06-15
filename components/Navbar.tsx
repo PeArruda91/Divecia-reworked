@@ -243,6 +243,7 @@ import {
     },
     {
       label: 'Contato',
+      href: '/contato',
       
     },    
   ];
