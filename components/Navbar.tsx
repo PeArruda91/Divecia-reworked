@@ -234,38 +234,15 @@ import {
   const NAV_ITEMS: Array<NavItem> = [
     { label: 'Home', href: '/' },
     {
-      label: 'Filosofia da Div&Cia',
-      children: [
-        {
-          label: 'Nossa filosofia.',
-          subLabel: 'Qualidade, personalização e eficiência para espaços elegantes e lucrativos.',
-          href: '#',
-        },
-        {
-          label: 'Nossa Diretriz',
-          subLabel: 'Diretrizes da empresa: Design de qualidade, atendimento personalizado e eficiência na execução.',
-          href: '',
-        },
-      ],
+      label: 'Sobre nós',
+      href: '/about',
     },
     {
-      label: 'Nossos Produtos',
-      children: [
-        {
-          label: 'Clique aqui para cohecer nossos produtos',
-          subLabel: 'Divisórias, vidros, pisos e etc. ',
-          href: '/produtos',
-        },        
-      ],
+      label: 'Produtos',
+      href: '/produtos',
     },
     {
-      label: 'Nosso Contato',
-      children: [
-        {
-          label: 'E-mail',
-          subLabel: 'divecia@hotmail.com ',
-          href: '#',
-        },        
-      ],
+      label: 'Contato',
+      
     },    
   ];
