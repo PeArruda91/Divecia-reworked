@@ -13,10 +13,7 @@ export default function Testemonials() {
         fontSize={{ base: 'xl', md: '2xl' }}
         textAlign={'center'}
         maxW={'3xl'}>
-        We had an incredible experience working with  and were
-        impressed they made such a big difference in only three weeks. Our team
-        is so grateful for the wonderful improvements they made and their
-        ability to get familiar with the product concept so quickly.
+        Na Div & Cia, oferecemos amplas opções de design e materiais de alta qualidade, resultando em soluções duráveis que garantem privacidade e satisfação do cliente. Com nosso atendimento personalizado, auxiliamos na escolha das melhores soluções, otimizando recursos e maximizando o retorno do investimento. Nossa equipe qualificada garante eficiência na execução dos projetos, resultando em economia de tempo e redução de custos. Com divisórias e vidros sofisticados, criamos espaços versáteis e elegantes, agregando valor ao imóvel e potencializando oportunidades de negócio. Confie na Div & Cia para alcançar resultados financeiros sólidos e competitivos.
       </Text>
       <Box textAlign={'center'}>
         <Avatar
@@ -26,9 +23,9 @@ export default function Testemonials() {
           mb={2}
         />
 
-        <Text fontWeight={600}>Jenny Wilson</Text>
+        <Text fontWeight={600}>Josè Pereira</Text>
         <Text fontSize={'sm'} color={useColorModeValue('gray.400', 'gray.400')}>
-          Vice President
+          CEO
         </Text>
       </Box>
     </Stack>

@@ -6,6 +6,7 @@ import {
     Stack,
     Text,
     useBreakpointValue,
+    Link
   } from '@chakra-ui/react';
   
   export default function Herosection() {
@@ -27,28 +28,29 @@ import {
                   bg: 'blue.400',
                   zIndex: -1,
                 }}>
-                Freelance
+                Div & Cia
               </Text>
               <br />{' '}
               <Text color={'blue.400'} as={'span'}>
-                Design Projects
+                A Grife das Divisórias
               </Text>{' '}
             </Heading>
             <Text fontSize={{ base: 'md', lg: 'lg' }} color={'gray.500'}>
-              The project board is an exclusive resource for contract work. It's
-              perfect for freelancers, agencies, and moonlighters.
+              
+Div & Cia é um comércio especializado em oferecer elegância e funcionalidade em soluções sofisticadas de divisórias e vidros. Com uma ampla gama de opções de design e materiais de alta qualidade, proporcionamos ambientes modernos, versáteis e elegantes, atendendo às necessidades exclusivas de cada cliente. Nossos produtos são cuidadosamente selecionados para oferecer durabilidade, privacidade e beleza estética, transformando espaços residenciais e comerciais em verdadeiras obras de arte arquitetônica. Nossa equipe altamente qualificada está pronta para oferecer um atendimento personalizado, auxiliando na escolha das melhores soluções para cada projeto. Seja para ambientes corporativos, residenciais, lojas ou estabelecimentos comerciais, a Div & Cia é a escolha perfeita para aqueles que buscam o equilíbrio perfeito entre estética e funcionalidade em divisórias e vidros sofisticados.
             </Text>
             <Stack direction={{ base: 'column', md: 'row' }} spacing={4}>
               <Button
                 rounded={'full'}
-                bg={'blue.400'}
+                bg={'green.400'}
                 color={'white'}
                 _hover={{
-                  bg: 'blue.500',
+                  bg: 'green.800',
                 }}>
-                Create Project
+                  <Link href='https://www.google.com/' isExternal> 
+                   Entre em Contato
+                  </Link> 
               </Button>
-              <Button rounded={'full'}>How It Works</Button>
             </Stack>
           </Stack>
         </Flex>
@@ -57,7 +59,7 @@ import {
             alt={'Login Image'}
             objectFit={'cover'}
             src={
-              'https://images.unsplash.com/photo-1527689368864-3a821dbccc34?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80'
+              'https://images.pexels.com/photos/6794926/pexels-photo-6794926.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
             }
           />
         </Flex>

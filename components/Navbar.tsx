@@ -55,7 +55,9 @@ import {
               textAlign={useBreakpointValue({ base: 'center', md: 'left' })}
               fontFamily={'heading'}
               color={useColorModeValue('gray.800', 'white')}>
-              Logo
+              <Link>
+              Div & Cia
+              </Link>
             </Text>
   
             <Flex display={{ base: 'none', md: 'flex' }} ml={10}>
@@ -68,28 +70,6 @@ import {
             justify={'flex-end'}
             direction={'row'}
             spacing={6}>
-            <Button
-              as={'a'}
-              fontSize={'sm'}
-              fontWeight={400}
-              variant={'link'}
-              href="/signin"
-              >
-              Sign In
-            </Button>
-            <Button
-              as={'a'}
-              display={{ base: 'none', md: 'inline-flex' }}
-              fontSize={'sm'}
-              fontWeight={600}
-              color={'white'}
-              bg={'pink.400'}
-              href="signup"
-              _hover={{
-                bg: 'pink.300',
-              }}>
-              Sign Up
-            </Button>
           </Stack>
         </Flex>
   
@@ -252,42 +232,40 @@ import {
   }
   
   const NAV_ITEMS: Array<NavItem> = [
+    { label: 'Home', href: '/' },
     {
-      label: 'Inspiration',
+      label: 'Filosofia da Div&Cia',
       children: [
         {
-          label: 'Explore Design Work',
-          subLabel: 'Trending Design to inspire you',
+          label: 'Nossa filosofia.',
+          subLabel: 'Qualidade, personalização e eficiência para espaços elegantes e lucrativos.',
           href: '#',
         },
         {
-          label: 'New & Noteworthy',
-          subLabel: 'Up-and-coming Designers',
-          href: '#',
+          label: 'Nossa Diretriz',
+          subLabel: 'Diretrizes da empresa: Design de qualidade, atendimento personalizado e eficiência na execução.',
+          href: '',
         },
       ],
     },
     {
-      label: 'Find Work',
+      label: 'Nossos Produtos',
       children: [
         {
-          label: 'Job Board',
-          subLabel: 'Find your dream design job',
-          href: '#',
-        },
-        {
-          label: 'Freelance Projects',
-          subLabel: 'An exclusive list for contract work',
-          href: '#',
-        },
+          label: 'Clique aqui para cohecer nossos produtos',
+          subLabel: 'Divisórias, vidros, pisos e etc. ',
+          href: '/produtos',
+        },        
       ],
     },
     {
-      label: 'Learn Design',
-      href: '#',
-    },
-    {
-      label: 'Hire Designers',
-      href: '#',
-    },
+      label: 'Nosso Contato',
+      children: [
+        {
+          label: 'E-mail',
+          subLabel: 'divecia@hotmail.com ',
+          href: '#',
+        },        
+      ],
+    },    
   ];
