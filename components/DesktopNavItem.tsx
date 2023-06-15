@@ -10,9 +10,11 @@ interface DesktopNavItemProps {
 
 const DesktopNavItem: React.FC<DesktopNavItemProps> = ({ label, href, linkColor, linkHoverColor }) => {
   return (
+    <>
     <Link href={href ?? "#"} p={2} fontSize="sm" fontWeight={500} color={linkColor} _hover={{ textDecoration: "none", color: linkHoverColor }}>
       {label}
     </Link>
+</>
   );
 };
 
