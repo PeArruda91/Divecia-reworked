@@ -1,3 +1,5 @@
+"use client"
+
 import React from 'react';
 import { Link, useColorModeValue } from "@chakra-ui/react";
 
@@ -12,8 +14,8 @@ const DesktopNavItem: React.FC<DesktopNavItemProps> = ({ label, href, linkColor,
   return (
     <>
     <Link href={href ?? "#"} p={2} fontSize="sm" fontWeight={500} color={linkColor} _hover={{ textDecoration: "none", color: linkHoverColor }}>
-      {label}
-    </Link>
+  {label}
+</Link>
 </>
   );
 };

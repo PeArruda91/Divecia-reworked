@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link, useColorModeValue, Popover, PopoverTrigger, PopoverContent, Stack, Box } from "@chakra-ui/react";
 import DesktopSubNav from "./DesktopSubNav";
+import DesktopNavItem from './DesktopNavItem';
 
 interface DesktopPopoverNavItemProps {
   label: string;
