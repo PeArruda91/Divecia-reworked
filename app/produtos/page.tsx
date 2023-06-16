@@ -13,7 +13,7 @@ interface CardData {
 
 const cards: CardData[] = [
   {
-    imageSrc: 'https://images.squarespace-cdn.com/content/v1/5162b53de4b080e51178d1bd/1513340598127-YSMOM87UDGQACT8BMU3I/P8490995.jpg',
+    imageSrc: 'https://cdn.discordapp.com/attachments/1111809586123509801/1119085087036817429/elti2f79.png',
     altText: 'Divisória de vidro',
     title: 'Venha conhecer nossos produtos. ',
     description: 'Com mais de 15 anos de experiência, somos especializados no desenvolvimento de projetos de divisórias utilizando uma ampla variedade de materiais. Nossas opções incluem eucaplac, gesso drywall, materiais acústicos e incombustíveis, vidro duplo com persiana embutida, PVC, biombos, estações de trabalho, forros em PVC, gesso e isopor, pisos vinílicos, gesso 3D, janelas acústicas e muito mais. Trabalhamos com uma ampla gama de materiais de alta qualidade para garantir soluções personalizadas e duradouras para os projetos de nossos clientes.',
